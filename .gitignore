@@ -1,0 +1,17 @@
+# Visual Studio temporary files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build folders
+bin/
+obj/
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# OneDrive sync files
+~$*
