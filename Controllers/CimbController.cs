@@ -50,7 +50,7 @@ namespace FxRateTracker.Controllers
                 Console.WriteLine(result);
 
                 //6556266381
-                var bot = new TelegramBotClient("8434144452:AAERt3iv3-xGjhKG8qYp7i8SYmOkxo5nzY4");
+                var bot = new TelegramBotClient("");
                 var me = await bot.GetMe();
                 Console.WriteLine($"Hello, World! I am user {me.Id} and my name is {me.Username}.");
                 await bot.SendMessage("6556266381", "Current CIMB rate of SGD to MYR is " + result + ".");
